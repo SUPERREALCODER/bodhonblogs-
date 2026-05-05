@@ -49,8 +49,8 @@ export default function Blogs() {
                 Insights
               </span>
             </div>
-            <h2 className="text-5xl md:text-6xl font-extrabold tracking-tighter text-white">
-              Thoughts from the Edge
+            <h2 className="text-3xl md:text-5xl lg:text-6xl font-extrabold tracking-tighter text-white">
+              Thoughts from <br className="hidden sm:block" /> the Edge
             </h2>
           </div>
           

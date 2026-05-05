@@ -66,7 +66,7 @@ export default function BlogCard({ article, index }: BlogCardProps) {
       </div>
 
       {/* Content Area */}
-      <div className="p-8 flex flex-col flex-grow">
+      <div className="p-6 md:p-8 flex flex-col flex-grow">
         {/* Meta Row */}
         <div className="flex items-center gap-4 mb-4 font-mono text-[10px] uppercase tracking-wider text-white/40">
           <span>{article.date}</span>
